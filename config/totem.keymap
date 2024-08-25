@@ -95,17 +95,17 @@
 
         navi {
             bindings = <
-        &trans    &trans    &trans     &trans          &trans        &kp HOME         &kp PAGE_DOWN  &kp PG_UP   &kp END    &kp K_PASTE
-        &kp LGUI  &kp LALT  &kp LCTRL  &kp LEFT_SHIFT  &kp ENTER     &kp LEFT         &kp DOWN       &kp UP      &kp RIGHT  &kp K_COPY
-&trans  &trans    &trans    &trans     &trans          &kp DELETE    &kp PRINTSCREEN  &kp K_UNDO     &kp K_REDO  &trans     &kp K_CUT    &trans
-                            &trans     &trans          &trans        &trans           &trans         &trans
+        &trans    &trans    &trans     &trans       &trans        &kp HOME         &kp PAGE_DOWN  &kp PG_UP   &kp END    &kp K_PASTE
+        &kp LGUI  &kp LALT  &kp LCTRL  &kp K_COPY   &kp ENTER     &kp LEFT         &kp DOWN       &kp UP      &kp RIGHT  &kp K_COPY
+&trans  &trans    &trans    &trans     &kp K_PASTE  &kp DELETE    &kp PRINTSCREEN  &kp K_UNDO     &kp K_REDO  &trans     &kp K_CUT    &trans
+                            &trans     &trans       &trans        &trans           &trans         &trans
             >;
         };
 
         symb {
             label = "SYMB";
             bindings = <
-        &kp LEFT_BRACKET       &kp LESS_THAN         &kp EQUAL    &kp GREATER_THAN       &kp RIGHT_BRACKET      &trans       &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &trans
+        &kp LEFT_BRACKET       &kp LESS_THAN         &kp EQUAL    &kp GREATER_THAN       &kp DOLLAR             &trans       &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &trans
         &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp MINUS    &kp RIGHT_PARENTHESIS  &rovnoAndDvoetochie    &kp PERCENT  &kp LEFT_BRACE    &kp SEMICOLON   &kp RIGHT_BRACE    &kp EXCLAMATION
 &trans  &kp ASTRK              &kp ASTRK             &kp AT_SIGN  &kp HASH               &kp RIGHT_BRACE        &kp AMPS     &kp PIPE          &kp TILDE       &trans             &trans           &trans
                                                      &trans       &trans                 &trans                 &trans       &trans            &trans
