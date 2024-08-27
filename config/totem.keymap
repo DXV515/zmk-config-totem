@@ -119,7 +119,7 @@
             bindings = <
         &kp LEFT_BRACKET       &kp LESS_THAN         &kp EQUAL    &kp GREATER_THAN       &kp DOLLAR             &kp GRAVE    &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &trans
         &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp MINUS    &kp RIGHT_PARENTHESIS  &rovnoAndDvoetochie    &kp PERCENT  &kp LEFT_BRACE    &kp SEMICOLON   &kp RIGHT_BRACE    &kp EXCLAMATION
-&trans  &kp ASTRK              &kp ASTRK             &kp AT_SIGN  &kp HASH               &kp RIGHT_BRACE        &kp AMPS     &kp PIPE          &kp TILDE       &trans             &trans           &trans
+&trans  &kp CARET              &kp ASTRK             &kp AT_SIGN  &kp HASH               &kp RIGHT_BRACE        &kp AMPS     &kp PIPE          &kp TILDE       &trans             &trans           &trans
                                                      &trans       &trans                 &trans                 &trans       &trans            &trans
             >;
         };
