@@ -29,6 +29,11 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+
+        ruswap {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <27 17>;
+        };
     };
 
     behaviors {
