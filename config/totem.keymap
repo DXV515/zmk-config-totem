@@ -77,7 +77,7 @@
         clear_all_text: clear_all_text {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp DELETE>;
+            bindings = <&kp END &kp LC(A) &kp DELETE>;
             label = "CLEAR_ALL_TEXT";
         };
     };
