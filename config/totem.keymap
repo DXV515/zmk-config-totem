@@ -107,10 +107,10 @@
 
         navi {
             bindings = <
-        &trans    &trans  &trans           &kp LC(X)  &kp PRINTSCREEN    &kp HOME    &kp PAGE_DOWN  &kp PG_UP   &kp END     &kp K_PASTE
-        &kp LGUI  &trans  &clear_all_text  &kp LC(C)  &kp ENTER          &kp LEFT    &kp DOWN       &kp UP      &kp RIGHT   &kp K_COPY
-&trans  &trans    &trans  &trans           &kp LC(V)  &kp DELETE         &kp K_NEXT  &kp K_UNDO     &kp K_REDO  &kp K_PREV  &kp K_CUT    &trans
-                          &trans           &trans     &trans             &trans      &trans         &trans
+        &trans    &trans  &trans           &kp LC(LS(X))  &kp PRINTSCREEN    &kp HOME    &kp PAGE_DOWN  &kp PG_UP   &kp END     &kp K_PASTE
+        &kp LGUI  &trans  &clear_all_text  &kp LC(LS(C))  &kp ENTER          &kp LEFT    &kp DOWN       &kp UP      &kp RIGHT   &kp K_COPY
+&trans  &trans    &trans  &trans           &kp LC(LS(V))  &kp DELETE         &kp K_NEXT  &kp K_UNDO     &kp K_REDO  &kp K_PREV  &kp K_CUT    &trans
+                          &trans           &trans         &trans             &trans      &trans         &trans
             >;
         };
 
