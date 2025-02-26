@@ -109,7 +109,7 @@
             bindings = <
        &clear_all_text  &kp LC(LS(F10))  &kp INS  &kp LC(X)  &kp PRINTSCREEN    &kp HOME            &kp PAGE_DOWN  &kp PG_UP      &kp END        &kp K_PASTE
        &kp LGUI         &trans           &trans   &kp LC(C)  &kp ENTER          &kp LEFT            &kp DOWN       &kp UP         &kp RIGHT      &kp K_COPY
-&sl 4  &trans           &trans           &trans   &kp LC(V)  &kp DELETE         &kp LC(LEFT_ARROW)  &kp LC(Z)      &kp LC(LS(Z))  &kp LC(RIGHT)  &kp K_CUT    &trans
+&sl 4  &trans           &trans           &trans   &kp LC(V)  &kp DELETE         &kp LC(LEFT_ARROW)  &kp LC(Z)      &kp LC(LS(Z))  &kp LC(RIGHT)  &kp K_CUT    &to 5
                                          &trans   &trans     &trans             &trans              &trans         &trans
             >;
         };
