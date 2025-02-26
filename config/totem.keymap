@@ -91,7 +91,7 @@
                  &kp Q        &kp W        &kp E          &kp R         &kp T        &kp Y        &kp U         &kp I         &kp O        &kp P
                  &hrm LGUI A  &hrm LALT S  &hrm LCTRL D   &hrm LSHFT F  &kp G        &kp H        &hrm RSHFT J  &hrm RCTRL K  &hrm RALT L  &hrm RGUI SEMICOLON
 &kh_hs_tapdance  &kp Z        &kp X        &kp C          &kp V         &kp B        &kp N        &kp M         &kp COMMA     &kp DOT      &kp FSLH             &kp SINGLE_QUOTE
-                                           &kp BACKSPACE  &lt 1 SPACE   &lt 2 TAB    &lt 1 ENTER  &lt 3 ESCAPE  &lt 4 CAPS
+                                           &kp BACKSPACE  &lt 1 SPACE   &lt 2 TAB    &lt 1 ENTER  &lt 3 ESCAPE  &lt 5 CAPS
             >;
         };
 
@@ -134,12 +134,12 @@
             >;
         };
 
-        layer_5 {
+        vim {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+          &kp Q  &kp W  &kp E  &kp R   &kp T     &kp Y   &kp U   &kp I      &kp O    &kp P
+          &kp A  &kp S  &kp D  &kp F   &kp G     &kp H   &kp J   &kp K      &kp L    &kp SEMI
+&kp LBKT  &kp Z  &kp X  &kp C  &kp V   &kp B     &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
+                        &to 0  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
