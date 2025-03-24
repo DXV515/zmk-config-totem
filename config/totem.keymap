@@ -80,13 +80,6 @@
             bindings = <&kp END &kp LC(A) &kp DELETE>;
             label = "CLEAR_ALL_TEXT";
         };
-
-        qick_screenshot: qick_screenshot {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "QICK_SCREENSHOT";
-        };
     };
 
     keymap {
