@@ -80,6 +80,13 @@
             bindings = <&kp END &kp LC(A) &kp DELETE>;
             label = "CLEAR_ALL_TEXT";
         };
+
+        copy_this_word: copy_this_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LEFT_ARROW) &kt LEFT_SHIFT &kp LC(RIGHT) &kt LEFT_SHIFT &kp LC(C)>;
+            label = "COPY_THIS_WORD";
+        };
     };
 
     keymap {
